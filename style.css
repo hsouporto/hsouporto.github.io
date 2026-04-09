@@ -1,0 +1,50 @@
+:root {
+    --bg: #ffffff;
+    --text: #222;
+    --link: #0066cc;
+}
+
+body.dark {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --link: #4da3ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+a {
+    color: var(--link);
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+}
+
+.profile img {
+    width: 140px;
+    border-radius: 10px;
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
