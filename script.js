@@ -1,36 +1,29 @@
-// Dark mode
-const toggle = document.getElementById("theme-toggle");
+async function loadPublications() {
+  const container = document.getElementById("pubs");
 
-function setTheme(mode) {
-    document.body.classList.toggle("dark", mode === "dark");
-    localStorage.setItem("theme", mode);
-}
+  try {
+    const res = await fetch("publications.json");
+    const data = await res.json();
 
-toggle.onclick = () => {
-    const current = localStorage.getItem("theme") || "light";
-    setTheme(current === "dark" ? "light" : "dark");
-};
+    container.innerHTML = "";
 
-const savedTheme = localStorage.getItem("theme");
-if (savedTheme) {
-    setTheme(savedTheme);
-} else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    setTheme("dark");
-}
+    data.forEach(pub => {
+      const div = document.createElement("div");
+      div.className = "pub";
 
-// Publications
-fetch("publications.json")
-    .then(res => res.json())
-    .then(data => {
-        const list = document.getElementById("pub-list");
-        list.innerHTML = "";
-        data.forEach(pub => {
-            const li = document.createElement("li");
-            li.innerHTML = `<b>${pub.title}</b> (${pub.year})`;
-            list.appendChild(li);
-        });
-    })
-    .catch(() => {
-        document.getElementById("pub-list").innerHTML =
-            "<li>Unable to load publications.</li>";
+      div.innerHTML = `
+        <b>${pub.title}</b><br>
+        ${pub.authors}<br>
+        <i>${pub.venue}</i>, ${pub.year}
+        <hr>
+      `;
+
+      container.appendChild(div);
     });
+
+  } catch (err) {
+    container.innerHTML = "Failed to load publications.";
+  }
+}
+
+loadPublications();

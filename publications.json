@@ -1,4 +1,134 @@
 [
-  {"title": "Transformers for Energy Forecast", "year": 2023},
-  {"title": "Residual Transformer for Multimodal Medical VQA", "year": 2024}
+  {
+    "title": "Decoding Vision Transformer Variations for Image Classification",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Machine Learning with Applications",
+    "year": 2026
+  },
+  {
+    "title": "Optimizing Crowd Evacuation: Strategies for Safety and Efficiency",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Journal of Reliable Intelligent Environments",
+    "year": 2025
+  },
+  {
+    "title": "Unified Approach to Video Anomaly Detection",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "IEEE Access",
+    "year": 2025
+  },
+  {
+    "title": "Survey on Multi-Modal Weakly Supervised Video Anomaly Detection",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Information Fusion",
+    "year": 2025
+  },
+  {
+    "title": "Optimizing Medical Image Captioning with Prompt Encoding",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "IbPRIA",
+    "year": 2025
+  },
+  {
+    "title": "Robust Visual Transformers for Medical Image Classification",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "IEEE Conference",
+    "year": 2025
+  },
+  {
+    "title": "Medical Image Caption Generation with Soft Prompt Tuning",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Portuguese Pattern Recognition Conference",
+    "year": 2024
+  },
+  {
+    "title": "Transformers for Energy Forecast",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Sensors 23(15), 6840",
+    "year": 2023
+  },
+  {
+    "title": "Hierarchical Modified AV1 Codec for Hologram Compression",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Multimedia Tools and Applications",
+    "year": 2023
+  },
+  {
+    "title": "Evaluation of Regularization Techniques for Transformers",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Portuguese Pattern Recognition Conference",
+    "year": 2023
+  },
+  {
+    "title": "Evaluation of Regularization Techniques",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "IbPRIA",
+    "year": 2023
+  },
+  {
+    "title": "Sound Classification and Processing of Urban Environments: A Systematic Literature Review",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Sensors 22(22), 8608",
+    "year": 2022
+  },
+  {
+    "title": "Transformers for Urban Sound Classification: A Comprehensive Evaluation",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Sensors 22(22), 8874",
+    "year": 2022
+  },
+  {
+    "title": "Regularization Techniques for Transformer-Based Models",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Portuguese Pattern Recognition Conference",
+    "year": 2022
+  },
+  {
+    "title": "Crowd Dynamics in Emergency Situations",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "SSRN",
+    "year": 2022
+  },
+  {
+    "title": "Urban Safety: An Image-Processing and Deep-Learning-Based Intelligent Traffic Management System",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Sensors 21(22), 7705",
+    "year": 2021
+  },
+  {
+    "title": "Novel Time-Frequency Scheme for Sound Event Detection",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "IbPRIA",
+    "year": 2021
+  },
+  {
+    "title": "Re-Identification in Urban Scenarios: A Review",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "Applied Sciences",
+    "year": 2021
+  },
+  {
+    "title": "Lightweight Deep Learning Pipeline for Breast Cancer Detection",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "ICIAP",
+    "year": 2019
+  },
+  {
+    "title": "Automatic Detection of Anatomical Structures in Mammography",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "PQDT",
+    "year": 2018
+  },
+  {
+    "title": "Robust Detection and Tracking of Ground Vehicles Using UAV",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "AIAA GNC",
+    "year": 2015
+  },
+  {
+    "title": "Control of Multiple Aerial Vehicles in Mixed-Initiative Environments",
+    "authors": "Hugo S. Oliveira et al.",
+    "venue": "PQDT",
+    "year": 2013
+  }
 ]
