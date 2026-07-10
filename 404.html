@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Hugo S. Oliveira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0B1426;
+      --teal: #00C9A7;
+      --white: #F7F5F0;
+      --muted: #8892A4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--navy);
+      color: var(--white);
+      font-family: 'Space Grotesk', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--teal);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: rgba(247,245,240,0.06);
+      margin-bottom: 1rem;
+    }
+    h1 span { color: var(--teal); }
+    p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 400px;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    a {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--navy);
+      background: var(--teal);
+      padding: 12px 28px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    a:hover { background: #00a88c; }
+  </style>
+</head>
+<body>
+  <div class="code">Error · 404</div>
+  <h1><span>4</span>0<span>4</span></h1>
+  <p>This page doesn't exist — but the research does. Head back to the main site.</p>
+  <a href="/">← Back Home</a>
+</body>
+</html>
